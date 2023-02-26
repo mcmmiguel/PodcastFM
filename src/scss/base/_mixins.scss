@@ -51,6 +51,13 @@
     grid-template-columns: repeat($columnas, 1fr);
 }
 
+@mixin iconoBg ($url){
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-position: 50% 2rem;
+    background-size: 10rem;
+}
+
 
 @mixin bgImage($url, $colorDegradado) {
     background-image: linear-gradient($colorDegradado 0%, $colorDegradado 100%), url($url); 
