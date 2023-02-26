@@ -2,6 +2,7 @@
 @use 'base/variables' as v;
 
 .crea-grid {
+    
     @include m.tablet { 
         @include m.grid (2, 2rem);
         align-items: center;
